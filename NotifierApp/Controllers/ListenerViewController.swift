@@ -9,8 +9,7 @@
 import UIKit
 
 class ListenerViewController: UIViewController {
-    @IBOutlet private weak var notificationStatusLabel: UILabel!
-    
+    @IBOutlet private weak var notificationStatusLabel: UILabel!    
     override func viewDidLoad() {
         super.viewDidLoad()
         resetLabel()
